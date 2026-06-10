@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    background:#F4D9C8;
+    font-family:sans-serif;
+}
+
+.container{
+    width:390px;
+    margin:auto;
+    min-height:100vh;
+    position:relative;
+}
+
+h1{
+    text-align:center;
+    color:#A06CFF;
+    margin-top:40px;
+    font-size:40px;
+}
+
+.card{
+    position:absolute;
+}
+
+.card img{
+    width:140px;
+    border-radius:25px;
+    transition:0.3s;
+}
+
+.card:hover img{
+    transform:scale(1.05);
+}
+
+.me{
+    top:140px;
+    left:50px;
+}
+
+.dog{
+    top:240px;
+    right:40px;
+}
+
+.travel{
+    top:430px;
+    left:20px;
+}
+
+.portfolio{
+    top:620px;
+    right:20px;
+}
